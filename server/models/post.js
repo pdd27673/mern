@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const { ObjectId } = mongoose.Schema.Types;
 
+// Post Schema definition
 const postSchema = new mongoose.Schema({
 	title: {
 		type: String,
